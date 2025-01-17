@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6 rem;
+  font-family: "Mulish", serif;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* --------main------------- */
+.background {
+  width: 100%;
+  height: 100vh;
+  background: rgb(166, 166, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 166, 166, 1) 8%,
+    rgb(180, 179, 179) 33%,
+    rgb(218, 218, 218) 44%
+  );
+}
+.headbox {
+  height: 20%;
+  flex-wrap: wrap;
+  align-content: space-around;
+  display: flex;
+}
+.headbox li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-right: 7em;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+#firstchird {
+  margin-left: 15em;
+}
+.headbox li:hover {
+  background-color: rgba(116, 116, 117, 0.219);
+}
+.bodybox {
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  border: 2px outset rgba(255, 255, 255, 0.359);
+  display: flex;
+}
+.conten {
+  width: 70%;
+}
+.imgbox {
+  width: 25%;
+  height: 90%;
+  background-image: url("./images/ảnh\ trang\ chính.jpg");
+  background-size: cover;
+  margin: auto;
+  border-radius: 7%;
+}
+.name {
+  font-size: 2.5rem;
+  margin-top: 15%;
+}
+.name :first-child {
+  font-weight: bolder;
+  text-align: center;
+}
+.name :last-child {
+  font-weight: 10;
+  text-align: center;
+  margin-top: 2%;
+}
+.mphuc {
+  text-indent: 8em;
+  font-weight: bolder;
+  margin-top: 15%;
+}
+.links {
+  margin-bottom: 1em;
+}
+.links > ol {
+  display: flex;
+  color: aliceblue;
+  margin-left: 5em;
+}
+.links li {
+  padding: 0.5em;
+  font-size: 1.5em;
+  color: aliceblue;
+}
+.links i {
+  color: aliceblue;
+}

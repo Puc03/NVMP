@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6 rem;
+  font-family: "Mulish", serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* --------main------------- */
+.background {
+  width: 100%;
+  height: 100vh;
+  background: rgb(166, 166, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 166, 166, 1) 8%,
+    rgb(180, 179, 179) 33%,
+    rgb(218, 218, 218) 44%
+  );
+}
+.headbox {
+  height: 20%;
+  flex-wrap: wrap;
+  align-content: space-around;
+  display: flex;
+}
+.headbox li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-right: 7em;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+#firstchird {
+  margin-left: 15em;
+}
+.headbox li:hover {
+  background-color: rgba(116, 116, 117, 0.219);
+}
+.bodybox {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  border: 2px inset;
+  border-radius: 0 12%;
+  margin: auto;
+}
+.imgbox {
+  width: 25%;
+  height: 90%;
+  background-image: url("./images/ảnh\ trang\ about.jpg");
+  background-size: cover;
+  margin: auto;
+  border-radius: 7%;
+  margin-right: 5em;
+}
+.contenbox {
+  width: 45%;
+  height: 90%;
+  margin: auto;
+}
+.contenbox :first-child {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 0;
+}
+.contenbox p {
+  font-size: 2em;
+  margin-top: 1em;
+}
